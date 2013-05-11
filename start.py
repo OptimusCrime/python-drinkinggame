@@ -39,7 +39,7 @@ def main():
                 os.system('python3 teams.py')
             else:
                 # Peke - Calling game2. Let the games begin!
-                print('222')
+                 os.system('python3 game2.py')
             break
         else:
             # Not a valid response, provide feedback and continue the loop
