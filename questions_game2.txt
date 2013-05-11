@@ -16,7 +16,6 @@ Hvem er smartest?
 Hvem er varmest?
 Hvem er fullest?
 Hvem er best?
-Hvem er best likt av foreldrene?
 Hvem løper fortest?
 Hvem har best syn?
 Hvem er sterkest?
@@ -36,7 +35,6 @@ Hvem har mest draget på det motsatte kjønn?
 Hvem spiser mest?
 Hvem har hatt mest sex?
 Hvem liker sex best?
-Hvem har mest lyst til å ligge med den andre?
 Hvem har mest penger?
 Hvem er mest irriterende?
 Hvem bruker mest penger?
@@ -84,7 +82,6 @@ Hvem er mest veltrent?
 Hvem har best forhold med foreldrene sine?
 Hvem har finest dialekt?
 Hvem viser mest takknemmelighet?
-Hvem av dere vil mest ligge med den du står med ryggen til?
 Hvem kommer mest sannsynlig til å eksperimentere med samme kjønn?
 Hvem har mest sex den siste uka?
 Hvem kommer mest sannsynlig til å spy i kveld?
@@ -125,18 +122,17 @@ Hvem har best rettningssans?
 Hvem kommer til å få barn først?
 Hvem kommer mest sannsynlig til å stryke et fag dette/neste semester?
 Hvem har dårligst musikksmak?
-Hvem av dere liker Justin Bieber best?
-Hvem av dere ville mest saynnsylig ofret livet for en totalt fremmed?
+Hvem liker Justin Bieber best?
+Hvem ville mest saynnsylig ofret livet for en totalt fremmed?
 Hvem er størst data-nerd?
 Hvem har mest livserfaring?
-Hvem av dere kunne levd best med bare en arm og ett ben?
-Hvem av dere burde hatt regulering?
+Hvem kunne levd best med bare en arm og ett ben?
+Hvem burde hatt regulering?
 Hvem av dere har hatt sex på mest kinky sted?
 Hvem er den mest utadvendte?
-Hvem av dere er best kabal?
-Hvem av dere bruker lengst tid på do?
-Hvem av dere er best på kjøkkenet?
-Hvem av dere kunne blitt sammen med en person lengst unna din egen alder?
+Hvem bruker lengst tid på do?
+Hvem er best på kjøkkenet?
+Hvem kunne blitt sammen med en person lengst unna din egen alder?
 På hvem sitt rom er det mest ryddig?
 Hvem er finest på håret?
 Hvem kommer til å gifte seg først?
