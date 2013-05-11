@@ -1,10 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*- 
 
-#
 # Imports
-#
-
 import random
 
 # Opening the file with all the questions
@@ -17,7 +14,7 @@ teams_file = open("teams.txt", "r", encoding = "utf8")
 teams_raw = teams_file.readlines()
 teams_file.close()
 
-
+# Main method displaying the questions and everything 
 def main():
     # Some need variables
     num_questions_each = 5
@@ -50,7 +47,9 @@ def main():
         
         # Validating if it is a number
         if (response.isnumeric()):
+            # It is a number, but is it valid?
             if (int(response) > 0):
+                # We have outselvs a valid number!
                 num_questions_each = int(response)
                 print('')
                 break
@@ -62,12 +61,15 @@ def main():
     
     # Let the games begin
     while True:
+        # Printing seperator
         print('==========================================')
         print('')
     
         # Printing info about current team
         print('Lag '+str(current_team+1)+': '+teams[current_team])
         print('')
+        
+        # Looping x number of questions pr. team
         for i in range(1,(num_questions_each+1)):
             # Getting random question
             rnd = random.randrange(0, len(questions))

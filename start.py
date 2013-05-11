@@ -1,15 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*- 
 
-#
 # Imports
-#
-
 import os
 
 # Main-method
 def main():
-    # Introduction
+    # Printing introduction
     print('Hei og velkommen til klubbas drikkespill!')
     print('=========================================')
     print('')
@@ -26,7 +23,7 @@ def main():
         
         # Make sure we have a valid reponse
         if (response == 'p' or response == 'r'):
-            # Valid response
+            # We have a valid response
             
             # Print newline to clean up
             print('')

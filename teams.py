@@ -1,10 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*- 
 
-#
 # Imports
-#
-
 import random
 import os
 
@@ -17,7 +14,7 @@ names.close()
 def main():
     # If we actually have some players
     if (len(names_lines) > 0):
-        # Print to ask
+        # Print to ask question
         print('Spill med eksisterende spillere?')
         
         # Loop the array to display what players we have from before
@@ -31,13 +28,13 @@ def main():
         
         # Loop to make the instructions appear several times
         while True:
-            # Displaying intructions
+            # Displaying different intructions depending on if the game can start now or not
             if (len(names_lines) % 2 == 0):
                 print('Skriv [y] for å bruke spillerne, [a] for å legge til nye navn eller [n] for å opprette ny liste.')
             else:
                 print('Skriv [a] for å legge til nye navn eller [n] for å opprette ny liste.')
             
-            # Response
+            # Catching the response
             response = input('Ditt svar: ')
             
             # Validating the response
@@ -57,7 +54,7 @@ def main():
                 else:
                     # Making a new list. Printing instructions
                     print('')
-                    print('Legg til nye navn i lista. Begynn spillet ved å skrive [p].')
+                    print('Legg til navn i lista. Begynn spillet ved å skrive [p].')
                     print('')
                     
                     # Calling the method
@@ -66,23 +63,22 @@ def main():
             else:
                 # Not a valid response, provide feedback and continue the loop
                 print('')
-                print('Venligst prøv igjen…')
+                print('Venligst prøv igjen...')
                 print('')
 
 # Method to generate the teams based on the names we have in the file right now
 def generate_team():
-    # Printing instructions
+    # Printing information
     print('')
     print('Lagene er som følger:')
     print('')
     
-    # Some lines
+    # Some variables we need
     i = 0
     team_number = 1
     other = ""
     
     # Cleaning the file with existing teams
-    # First removing all the content in the file
     open('teams.txt', 'w').close()
     
     # Opening the file with all the names
@@ -92,7 +88,7 @@ def generate_team():
     
     # Looping all the names
     while len(names_lines) > 0:
-        # If we only have one name left, it's the 0-index. If not, chose a random name
+        # If we only have one name left, it's the 0-index. If not, chose a random index
         if len(names_lines) == 1:
             rand = 0
         else:
@@ -132,7 +128,7 @@ def append_names():
         
         # Checking if adding or quitting
         if (name == 'p'):
-            # Trying to quit. Do we have an even number of teams?
+            # Getting all existing names from the file
             names = open("names.txt", "r", encoding = "utf8")
             names_lines = names.readlines()
             names.close()
@@ -143,6 +139,7 @@ def append_names():
                 generate_team()
                 break
             else:
+                # Odd number, can't start playing yet
                 print('')
                 print('Beklager, lagene må gå opp i to. Dere har '+str(len(names_lines))+' navn. Legg til en til!')
                 print('')
@@ -152,12 +149,13 @@ def append_names():
             names_lines = names.readlines()
             names.close()
             
+            # Keeping track if we found the name in the file or not
             names_contains_name = False
             
             # Checking for duplicates in the list
             for i in range(len(names_lines)):
                 if (names_lines[i].strip().lower() == name.lower()):
-                    # Duplicate
+                    # This name is a duplicate
                     names_contains_name = True
                     break
             
@@ -178,7 +176,6 @@ def new_names():
     
     # Call method to add new names
     append_names()
-
 
 # Calling the main-method!
 main()
