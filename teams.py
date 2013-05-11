@@ -78,8 +78,8 @@ def generate_team():
     
     # Some lines
     i = 0
-    lagNr = 1
-    linje = ""
+    team_number = 1
+    other = ""
     
     # Cleaning the file with existing teams
     # First removing all the content in the file
@@ -92,18 +92,32 @@ def generate_team():
     
     # Looping all the names
     while len(names_lines) > 0:
+        # If we only have one name left, it's the 0-index. If not, chose a random name
         if len(names_lines) == 1:
             rand = 0
         else:
             rand = random.randrange(0,len(names_lines)-1)
         
+        # Every second line should output and store the team-info
         if i % 2 != 0:
-            print("Lag "+str(lagNr)+": "+linje+" og "+names_lines[rand].strip())
-            lagNr += 1
+            # Outputting the information
+            print("Lag "+str(team_number)+": "+other+" og "+names_lines[rand].strip())
+            
+            # Storing the informasion in the teams-file
+            with open("teams.txt", "a") as myfile:
+                myfile.write(other+'|||'+names_lines[rand].strip()+'\n')
+                myfile.close()
+            
+            # Increase the team number by one
+            team_number += 1
         else:
-            linje = names_lines[rand].strip()
+            # Adding the name
+            other = names_lines[rand].strip()
         
+        # Removing the name from the line
         names_lines.pop(rand)
+        
+        # Increasing the index to keep track of even/odd-events
         i += 1
     
     # Let's play!
