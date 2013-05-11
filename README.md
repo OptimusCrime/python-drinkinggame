@@ -1,4 +1,6 @@
-python-drinkinggame
+Python Drinking-game
 ===================
 
-Simple drinkinggame written in Python
+Simple drinking-game for Klubba. Great for
+entertainment and funfun if you know each other
+well.
