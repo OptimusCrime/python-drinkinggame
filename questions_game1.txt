@@ -1,135 +1,142 @@
-hvem har flest hytter?
-hvem er høyest?
-hvem har finest hus?
-hvem har hatt flest kjærester?
-hvem er eldst?
-hvem ser mest på tv?
-hvem er rarest?
-hvem er finest?
-hvem har flest venner?
-hvem er best i fotball?
-hvem liker marthe best?
-hvem syntes jordbær er best?
-hvem er kulest?
-hvem er smartest?
-hvem er varmest?
-hvem er fullest?
-hvem er best?
-hvem er best likt av foreldrene?
-hvem løper fortest?
-hvem har best syn?
-hvem er sterkest?
-hvem liker Thomas dårligst?
-hvem er kåtest?
-hvem er bets i senga?
-hvem har hatt flest sexpartnere?
-hvem har dårligest hygiene?
-hvem har størst rumpe?
-hvem er mest kosete?
-hvem er fullest?
-hvem kommer til å bli rikest?
-hvem har hatt den fineste kjæresten?
-hvem er best i sjakk?
-hvem har mest flaks?
-hvem tåler smerte best?
-hvem har mest draget på jentene/guttene?
-hvem spiser mest?
-hvem har hatt mest sex?
-hvem liker sex best?
-hvem har mest lyst til å ligge med den andre?
-hvem har mest penger?
-hvem er mest irriterende?
-hvem bruker mest penger?
-hvem er mest kresen?
-hvem tåler mest alkohol?
-hvem blir eldst?
-hvem er lykkeligst?
-hvem har lest flest bøker?
-hvem vet mest?
-hvem er mest hyggelig?
-hvem tar seg best ut i undertøy?
-hvem har gjort mest sykt?
-hvem er snillest?
-hvem vinner i fight to the death?
-hvem er frekkest?
-hvem kommer til å lykkes best i livet?
-hvem har finest hjem?
-hvem er flinkest på skolen?
-hvem har størst pupper?
-hvem har mest kroppshår?
-hvem har høyest alkohol-tollerangse?
-hvem er flinkest til å sjekke opp på byen?
-hvem er best kjent i Trondheim?
-hvem er mest populær?
-hvem klær seg best?
-hvem er mest retard?
-hvem har høyest IQ?
-hvem blir fullest i kveld?
-hvem er fullest?
-hvem er best i programmering?
-hvem er mest shady?
-hvem har gjort flest lovbrudd?
-hvem liker seg sjæl best?
-hvem har best karakterer fra videregående?
-hvem har best karakterer nå?
-hvem har penest hårsveis?
-hvem er mest glad i pupper?
-hvem liker godteri mest?
-hvem spiser mest mat?
-hvem bryr seg mest om å være sunn?
-hvem trener mest?
-hvem veier mest?
-hvem er mest sporty?
-hvem er mest veltrent?
-hvem liker Marthe mest?
-hvem liker Ole mest?
-hvem liker Tale mest?
-hvem liker Stine mest?
-hvem liker Thomas mest?
-hvem liker Kristian mest?
-hvem liker Håkon mest?
-hvem liker Kari mest?
-hvem liker Johannes mest?
-hvem har best forhold med foreldrene sine?
-hvem har finest dialekt?
-hvem viser mest takknemmelighet?
-hvem vil ligge med den du står med ryggen til?
-hvem kommer mest sannsynlig til å eksperimentere med samme kjønn?
-hvem har mest sex den siste uka?
-hvem kommer mest sannsynlig til å spy i kveld?
-hvem har minst kontroll i fylla?
-hvem har mest sjangse til å overleve mot en bjørn?
-hvem er dårligst sjåfør?
-hvem har tatt/levert flest meter pikk i 2012?
-hvem squirter/kommer lengst...i meter?
-hvem er rikest?
-hvem er fattigst?
-hvem har slappest vagina/minst penis?
-hos hvem syntes kjønnsorganet best?
-hvem har mest kinky sex?
-hvem debuterte først?
-hvem har dårligst humor?
-hvem er mest kristen?
-hvem er mest rasistisk?
-hvem gir mest til veldedige formål?
-hvem har dårligst musikksmak?
-hvem har best selvtillit?
-hvem fortjener mest bank?
-hvem er mest glad i å knytte flanelsokker?
-hvem er styggest og dummest?
-hvem er mest imot narkotiske stoffer?
-hvem er tøffest i trynet?
-hvem er mest ærlig?
-hvem er mest uærlig?
-hvem er mest sikker på seg selv?
-hvem kommer til å spy i kveld?
-hvem legger mest an på folk?
-hvem failer mest på det motsatte kjønn?
-hvem kunne vært homofil/lesbisk?
-hvem liker exphil besT?
+Hvem har flest hytter?
+Hvem er høyest?
+Hvem har finest hus?
+Hvem har hatt flest kjærester?
+Hvem er eldst?
+Hvem er eldst mentalt?
+Hvem ser mest på tv?
+Hvem er rarest?
+Hvem er finest?
+Hvem er penest på en generell basis?
+Hvem har flest venner?
+Hvem er best i fotball?
+Hvem har best stil?
+Hvem er kulest?
+Hvem er smartest?
+Hvem er varmest?
+Hvem er fullest?
+Hvem er best?
+Hvem er best likt av foreldrene?
+Hvem løper fortest?
+Hvem har best syn?
+Hvem er sterkest?
+Hvem er kåtest?
+Hvem er best i senga?
+Hvem har hatt flest sexpartnere?
+Hvem har dårligest hygiene?
+Hvem har størst rumpe?
+Hvem er mest kosete?
+Hvem er fullest?
+Hvem kommer til å bli rikest?
+Hvem har hatt den fineste kjæresten?
+Hvem er best i sjakk?
+Hvem har mest flaks?
+Hvem tåler smerte best?
+Hvem har mest draget på det motsatte kjønn?
+Hvem spiser mest?
+Hvem har hatt mest sex?
+Hvem liker sex best?
+Hvem har mest lyst til å ligge med den andre?
+Hvem har mest penger?
+Hvem er mest irriterende?
+Hvem bruker mest penger?
+Hvem er mest kresen?
+Hvem tåler mest alkohol?
+Hvem blir eldst?
+Hvem er lykkeligst?
+Hvem har lest flest bøker?
+Hvem vet mest?
+Hvem er mest hyggelig?
+Hvem tar seg best ut i undertøy?
+Hvem har gjort mest sykt?
+Hvem er snillest?
+Hvem vinner i en 'fight to the death'?
+Hvem er frekkest?
+Hvem kommer til å lykkes best i livet?
+Hvem har finest hjem?
+Hvem er flinkest på skolen?
+Hvem har størst pupper?
+Hvem har mest kroppshår?
+Hvem har høyest alkohol-tollerang?
+Hvem er flinkest til å sjekke opp på byen?
+Hvem er best kjent i Trondheim?
+Hvem er mest populær?
+Hvem klær seg best?
+Hvem er mest retard?
+Hvem har høyest IQ?
+Hvem blir fullest i kveld?
+Hvem er fullest?
+Hvem er best i programmering?
+Hvem er mest shady?
+Hvem har gjort flest lovbrudd?
+Hvem liker seg sjæl best?
+Hvem har best karakterer fra videregående?
+Hvem har best karakterer nå?
+Hvem har penest hårsveis?
+Hvem er mest glad i pupper?
+Hvem liker godteri mest?
+Hvem spiser mest mat?
+Hvem bryr seg mest om å være sunn?
+Hvem trener mest?
+Hvem veier mest?
+Hvem er mest sporty?
+Hvem er mest veltrent?
+Hvem har best forhold med foreldrene sine?
+Hvem har finest dialekt?
+Hvem viser mest takknemmelighet?
+Hvem av dere vil mest ligge med den du står med ryggen til?
+Hvem kommer mest sannsynlig til å eksperimentere med samme kjønn?
+Hvem har mest sex den siste uka?
+Hvem kommer mest sannsynlig til å spy i kveld?
+Hvem har minst kontroll i fylla?
+Hvem har mest sjangse til å overleve mot en bjørn?
+Hvem er dårligst sjåfør?
+Hvem er rikest?
+Hvem er fattigst?
+Hvem har slappest vagina/minst penis?
+Hos hvem syntes kjønnsorganet best?
+Hvem har mest kinky sex?
+Hvem debuterte først?
+Hvem har dårligst humor?
+Hvem er mest kristen?
+Hvem er mest rasistisk?
+Hvem gir mest til veldedige formål?
+Hvem har dårligst musikksmak?
+Hvem har best selvtillit?
+Hvem fortjener mest bank?
+Hvem er styggest og dummest?
+Hvem er mest imot narkotiske stoffer?
+Hvem er tøffest i trynet?
+Hvem er mest ærlig?
+Hvem er mest uærlig?
+Hvem er mest sikker på seg selv?
+Hvem kommer til å spy i kveld?
+Hvem legger mest an på folk?
+Hvem failer mest på det motsatte kjønn?
+Hvem kunne vært homofil/lesbisk?
 Hvem er mest pervers?
-hvem ser mest på porno?
+Hvem ser mest på porno?
 Hvem har hatt flest sexpartnere det siste halvåret?
-
-
-
+Hvem ville lyktest best på byen i dag?
+Hvem har mest skitten logg-historie på datamaskinen?
+Hvem blir fortest skremt?
+Hvem har lettest for å bryte isen med noen ukjente?
+Hvem har best rettningssans?
+Hvem kommer til å få barn først?
+Hvem kommer mest sannsynlig til å stryke et fag dette/neste semester?
+Hvem har dårligst musikksmak?
+Hvem av dere liker Justin Bieber best?
+Hvem av dere ville mest saynnsylig ofret livet for en totalt fremmed?
+Hvem er størst data-nerd?
+Hvem har mest livserfaring?
+Hvem av dere kunne levd best med bare en arm og ett ben?
+Hvem av dere burde hatt regulering?
+Hvem av dere har hatt sex på mest kinky sted?
+Hvem er den mest utadvendte?
+Hvem av dere er best kabal?
+Hvem av dere bruker lengst tid på do?
+Hvem av dere er best på kjøkkenet?
+Hvem av dere kunne blitt sammen med en person lengst unna din egen alder?
+På hvem sitt rom er det mest ryddig?
+Hvem er finest på håret?
+Hvem kommer til å gifte seg først?
