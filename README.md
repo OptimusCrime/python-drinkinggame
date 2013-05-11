@@ -1,7 +1,7 @@
-Python Drinking-game
+Python Drinking game
 ===================
 
-Simple drinking-game for Klubba. Great for entertainment and funfun if you know each other well.
+Simple drinking game for Klubba. Great for entertainment and funfun if you know each other well. Perhaps if you don't know each other so well to. I don't know...
 
 
 Requirements
