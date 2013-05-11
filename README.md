@@ -14,8 +14,3 @@ How to play
 -----------
 
 The game is played using the command line. Start the game by typing `python3 start.py`. It will guide you thought the different games, setting up teams etc.
-
-Made by
--------
-
-The first version of this game was written by Thomas Gautvedt, Krisitan Ekle and Håkon Gimse in Åre, Sweden. After that Thomas Gautvedt has completely rewritten the entire game.
