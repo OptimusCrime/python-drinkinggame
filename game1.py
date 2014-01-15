@@ -4,13 +4,34 @@
 # Imports
 import random
 
+# For colors
+class bcolors:
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+
+    def disable(self):
+        self.HEADER = ''
+        self.OKBLUE = ''
+        self.OKGREEN = ''
+        self.WARNING = ''
+        self.FAIL = ''
+        self.ENDC = ''
+
+# Generate x spaces
+def repeat_to_length(string_to_expand, length):
+   return (string_to_expand * int((length/len(string_to_expand))+1))[:length]
+
 # Opening the file with all the questions
-questions_file = open("questions_game1.txt", "r", encoding = "utf8")
+questions_file = open('questions_game1.txt', 'r', encoding = 'utf8')
 questions = questions_file.readlines()
 questions_file.close()
 
 # Opening the file with the teams
-teams_file = open("teams.txt", "r", encoding = "utf8")
+teams_file = open('teams.txt', 'r', encoding = 'utf8')
 teams_raw = teams_file.readlines()
 teams_file.close()
 
@@ -22,28 +43,25 @@ def main():
     current_team = 0
     teams = []
     
-    # Printing welcome-message
-    print('')
-    print('==========================================')
-    print('')
-    print('Velkommen til Klubbas rygg-mot-rygg-spill!')
-    print('')
-    
     # Structuring teams in list
     for i in range(len(teams_raw)):
         # Splitting list on seperator
         teams_raw_split = teams_raw[i].split('|||')
         
         # Adding to the list
-        teams.append(teams_raw_split[0].strip()+" og "+teams_raw_split[1].strip())
+        teams.append(teams_raw_split[0].strip() + ' og ' + teams_raw_split[1].strip())
     
     # Getting number of questions pr. team
     while True:
         # Printing question
-        print('Hvor mange spørsmål pr. gruppe? Det er '+str(len(teams))+' grupper.')
+        print('║                                   Hvor mange spørsmål pr. gruppe? Det er ' + bcolors.OKGREEN + str(len(teams)) + bcolors.ENDC + ' grupper.                                  ║')
+        print('║                                                                                                                      ║')
+        print('╚══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝')
+        print('')
         
         # Getting response
-        response = input('Antall spørsmål: ')
+        response = input(bcolors.OKGREEN + '> Antall spørsmål: ' + bcolors.ENDC)
+        print('')
         
         # Validating if it is a number
         if (response.isnumeric()):
@@ -51,41 +69,50 @@ def main():
             if (int(response) > 0):
                 # We have outselvs a valid number!
                 num_questions_each = int(response)
-                print('')
                 break
         
         # Not valid input!
-        print('')
-        print('Ikke gyldig tallverdi. Prøv igjen')
-        print('')
+        print('╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗')
+        print('║                                                                                                                      ║')
+        print('║                                           Ugyldig tallverdi. Prøv igjen.                                             ║')
+        print('║                                                                                                                      ║')
+        print('╠══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╣')      
+        print('║                                                                                                                      ║')
     
     # Let the games begin
     while True:
-        # Printing seperator
-        print('==========================================')
-        print('')
-    
+        # Printing seprator
+        print('╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗')
+        print('║                                                                                                                      ║')
+        
         # Printing info about current team
-        print('Lag '+str(current_team+1)+': '+teams[current_team])
-        print('')
+        temp_team = '║ Lag ' + str(current_team+1) + ': ' + teams[current_team]
+        print('║ ' + bcolors.FAIL + 'Lag ' + str(current_team+1) + ': ' + bcolors.ENDC + teams[current_team] + repeat_to_length(' ', 119 - len(temp_team)) + '║')
+        print('║                                                                                                                      ║')
+        print('╠══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╣')      
+        foo = input('║                                                                                                                      ║')
         
         # Looping x number of questions pr. team
-        for i in range(1,(num_questions_each+1)):
+        for i in range(1, (num_questions_each+1)):
             # Getting random question
             rnd = random.randrange(0, len(questions))
             
             # Printing
-            print('Spm #'+str(i)+': '+questions[rnd].strip())
+            temp_question = '║ Spm #' + str(i) + ': ' + questions[rnd].strip()
+            print('║ ' + bcolors.OKGREEN + 'Spm #' + str(i) + ': ' + bcolors.ENDC + questions[rnd].strip() + repeat_to_length(' ', 119 - len(temp_question)) + '║')
+            print('║                                                                                                                      ║')
+            print('╠══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╣')      
             
             # Waiting for next question
-            foo = input()
+            foo = input('║                                                                                                                      ║')
         
         # Setting new team
         if ((current_team+1) >= len(teams)):
             current_team = 0
         else:
             current_team += 1
-        
+        print('╚══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝')
+        print('')
 
 # Calling the main-method! Time to plaaayyy
 main()
