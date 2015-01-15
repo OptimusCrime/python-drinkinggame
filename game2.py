@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 # -*- coding: utf-8 -*- 
 
 # Imports
@@ -26,7 +26,7 @@ def repeat_to_length(string_to_expand, length):
    return (string_to_expand * int((length/len(string_to_expand))+1))[:length]
 
 # Getting all the questions
-questions_file = open('questions_game2.txt', 'r', encoding = 'utf8')
+questions_file = open('questions_game2.txt', 'r')
 questions = questions_file.readlines()
 questions_file.close()
 
@@ -36,16 +36,16 @@ def main():
     i = 1
     
     # Printing welcome-message
-    print('')
-    print('╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗')
-    print('║                                                                                                                      ║')
-    print('║                                                ' + bcolors.OKGREEN + 'Klubbas Peke-På-Spill!' + bcolors.ENDC + '                                                ║')
-    print('║                                                                                                                      ║')
-    print('╚══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝')
-    print('')
+    print ''
+    print '╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗'
+    print '║                                                                                                                      ║'
+    print '║                                                ' + bcolors.OKGREEN + 'Klubbas Peke-På-Spill!' + bcolors.ENDC + '                                                ║'
+    print '║                                                                                                                      ║'
+    print '╚══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝'
+    print ''
     
-    print('╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗')
-    print('║                                                                                                                      ║')
+    print '╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗'
+    print '║                                                                                                                      ║'
     
     # Looping all the questions in random order
     while True:
@@ -53,15 +53,15 @@ def main():
         rnd = random.randrange(0, len(questions))
         
         question_string = '║ Spm #' + str(i) + ': ' + questions[rnd].strip()
-        question_whitespace = 119 - len(question_string)
+        question_whitespace = 119 - len(question_string.decode('utf-8'))
         
         # Printing
-        print('║ ' + bcolors.OKGREEN + 'Spm #' + str(i) + ': ' + bcolors.ENDC + questions[rnd].strip() + repeat_to_length(' ', question_whitespace) + '║')
-        print('║                                                                                                                      ║')
-        print('╠══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╣')
+        print '║ ' + bcolors.OKGREEN + 'Spm #' + str(i) + ': ' + bcolors.ENDC + questions[rnd].strip() + repeat_to_length(' ', question_whitespace) + '║'
+        print '║                                                                                                                      ║'
+        print '╠══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╣'
         
         # Waiting for next question
-        foo = input('║                                                                                                                      ║')
+        foo = str(raw_input('║                                                                                                                      ║'))
         
         # Increasing question-number by one
         i += 1

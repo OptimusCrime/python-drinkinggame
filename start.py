@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 # -*- coding: utf-8 -*- 
 
 # Imports
@@ -24,46 +24,46 @@ class bcolors:
 # Main-method
 def main():
     # Printing introduction
-    print('╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗')
-    print('║                                                                                                                      ║')
-    print('║                                      ' + bcolors.OKGREEN + 'Hei og velkommen til klubbas drikkespill!' + bcolors.ENDC + '                                       ║')
-    print('║                                                                                                                      ║')
-    print('╚══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝')
-    print('')
-    print('╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗')
-    print('║                                                                                                                      ║')
-    print('║                                        Velg hvilke spill dere ønsker å spille                                        ║')
-    print('║                                                                                                                      ║')
+    print '╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗'
+    print '║                                                                                                                      ║'
+    print '║                                      ' + bcolors.OKGREEN + 'Hei og velkommen til klubbas drikkespill!' + bcolors.ENDC + '                                       ║'
+    print '║                                                                                                                      ║'
+    print '╚══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝'
+    print ''
+    print '╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗'
+    print '║                                                                                                                      ║'
+    print '║                                        Velg hvilke spill dere ønsker å spille                                        ║'
+    print '║                                                                                                                      ║'
     # Loop to make sure we have valid input
     while True:
         # Present the choices
-        print('╠══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╣')
-        print('║                                                                                                                      ║')
-        print('║                              Skriv ' + bcolors.FAIL + '[p]' + bcolors.ENDC + ' for peke-leken eller ' + bcolors.FAIL + '[r]' + bcolors.ENDC + ' for rygg-mot-rygg-leken                              ║')
-        print('║                                                                                                                      ║')
-        print('╚══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝')
-        print('')
+        print '╠══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╣'
+        print '║                                                                                                                      ║'
+        print '║                              Skriv ' + bcolors.FAIL + '[p]' + bcolors.ENDC + ' for peke-leken eller ' + bcolors.FAIL + '[r]' + bcolors.ENDC + ' for rygg-mot-rygg-leken                              ║'
+        print '║                                                                                                                      ║'
+        print '╚══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝'
+        print ''
         
         # The the response
-        response = input(bcolors.OKGREEN + '> Deres valg: ' + bcolors.ENDC)
+        response = str(raw_input(bcolors.OKGREEN + '> Deres valg: ' + bcolors.ENDC))
         
         # Make sure we have a valid reponse
-        if (response == 'p' or response == 'r'):
+        if response == 'p' or response == 'r':
             # We have a valid response! Find out what game we should call       
-            if (response == 'r'):
+            if response == 'r':
                 # Rygg-mot-rygg - Calling teams.py to construct the teams
-                os.system('python3 teams.py')
+                os.system('python teams.py')
             else:
                 # Peke - Calling game2. Let the games begin!
-                 os.system('python3 game2.py')
+                 os.system('python game2.py')
             break
         else:
             # Not a valid response, provide feedback and continue the loop
-            print('')
-            print('╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗')
-            print('║                                                                                                                      ║')
-            print('║                                                Vennligst prøv igjen                                                  ║')
-            print('║                                                                                                                      ║')
+            print ''
+            print '╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗'
+            print '║                                                                                                                      ║'
+            print '║                                                Vennligst prøv igjen                                                  ║'
+            print '║                                                                                                                      ║'
 
 # The the ball rolling here!
 main()
